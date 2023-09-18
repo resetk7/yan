@@ -1,0 +1,95 @@
+/* 外边距和内边距设为0px */
+body{
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+a{
+	display: inline-block;
+	text-decoration: none;
+	color: palevioletred;
+	padding: 3px;
+	border: 5px solid skyblue;
+	background-color: #F5F5DC;
+}
+/* 第一个页面 */
+.one{
+	width: 1200px;
+	height: 600px;
+	margin: 60px auto;
+	background-color: paleturquoise;
+}
+/* 第二个页面 */
+.two{
+	box-sizing: border-box;
+	width: 1200px;
+	height: 600px;
+	margin: 60px auto; 
+	padding-top: 130px;
+	background-color: royalblue;
+}
+.two .middle{
+	width: 100%;
+	height: 85%;
+	background-color: paleturquoise;
+}
+/* 第三个页面 */
+.three{
+	width: 1200px;
+	height: 600px;
+	margin: 60px auto;
+	background-color: royalblue;
+}
+.three .right{
+	float: right;
+	width: 80%;
+	height: 100%;
+	background-color: paleturquoise;
+}
+/* 第四个页面 */
+.four{
+	box-sizing: border-box;
+	width: 1200px;
+	height: 600px;
+	margin: 60px auto;
+	padding-top: 120px;
+	background-color: royalblue;
+}
+.four .left{
+	float: left;
+	width: 20%;
+	height: 80%;
+	background-color: dodgerblue;
+}
+.four .right{
+	float: right;
+	width: 80%;
+	height: 80%;
+	background-color: paleturquoise;
+}
+/* 第五个页面 */
+.five{
+	box-sizing: border-box;
+	width: 1200px;
+	height: 600px;
+	margin: 60px auto;
+	padding-top: 120px;
+	background-color: royalblue;
+}
+.five .top{
+	width: auto;
+	height: 50px;
+	background-color: midnightblue;
+}
+.five .middle{
+	
+	width: auto;
+	height: 70%;
+	background-color: dodgerblue;
+}
+.middle .xbox{
+	margin: auto;
+	width: 35%;
+	height: 100%;
+	background-color: paleturquoise;
+}
