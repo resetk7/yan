@@ -1,9 +1,10 @@
-/* 外边距和内边距设为0px */
-body{
+/* 清除外边距和内边距 */
+*{
 	margin: 0;
 	padding: 0;
 	text-align: center;
 }
+/* 超链接默认样式清除与修改 */
 a{
 	display: inline-block;
 	text-decoration: none;
